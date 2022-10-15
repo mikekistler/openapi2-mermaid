@@ -1,0 +1,20 @@
+{
+  "name": "diagram",
+  "version": "0.0.1",
+  "description": "Create a mermaid diagram for an OpenAPI definition",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openapi"
+  ],
+  "author": "Mike Kistler",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "openapi-mermaid": "^2.192.5",
+    "swagger2openapi": "^7.0.8",
+    "temp": "^0.9.4"
+  }
+}
